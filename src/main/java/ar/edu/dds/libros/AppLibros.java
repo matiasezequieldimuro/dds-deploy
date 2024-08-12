@@ -36,7 +36,6 @@ public class AppLibros {
 		
 		app.get("/libros", controller::listLibros);
 		app.post("/libros", controller::addLibro);
-		
 	}
 	
 	
